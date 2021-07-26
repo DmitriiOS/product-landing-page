@@ -1,0 +1,143 @@
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)),url(https://images.clipartlogo.com/files/istock/previews/1019/101980449-fruit-and-vegetables-background-seamless-pattern.jpg);
+    margin: 0px;
+}
+
+h1,h3 {
+    color:darkolivegreen;
+}
+
+h5 {
+    font-size: 20px;
+    padding: 10px 0px;
+    margin: 0px;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.nav-bar img {
+    width: 30px;
+    height: 30px;
+}
+
+.nav-bar ul {
+    float: right;
+}
+
+.nav-bar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-title {
+    float: left;
+    margin: 16px 20px;
+}
+
+.header {
+    width: 900px;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    margin: 80px auto 0px auto;
+    border-radius: 10px;
+}
+
+.email {
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+
+.get-button {
+    margin-top: 20px;
+    width: 200px;
+    background-color: greenyellow;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.advantages-container {
+    margin: 20px auto 0px auto;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 100px;
+    width: 900px;
+    background: rgba(255, 255, 255, 0.8);
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+
+.d1 {
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.video-cucumber {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pricing {
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    margin: 20px auto 0px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.price {
+    background: rgba(255, 255, 255, 0.8);
+    border: solid 1px black;
+    padding-bottom: 10px;
+}
+
+.price-title {
+    background-color:chartreuse;
+    text-transform: uppercase;
+    align-self: start;
+}
+
+.cost {
+    font-size: 50px;
+}
+
+.footer {
+    width: 900px;
+    height: auto;
+    margin: auto;
+    background: darkolivegreen;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.footer ul {
+    justify-self: end;
+}
+
+.footer li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer p {
+    margin-right: 20px;
+    margin-top: 0px;
+    justify-self: end;
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .cost {
+        font-size: 30px;
+    }
+}
